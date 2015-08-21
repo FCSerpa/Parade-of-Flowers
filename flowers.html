@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>"The San Francisco First Annual General Assembly Parade of Flowers"</title>
+  <link rel="stylesheet" type="text/css" href="flowers.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="flowers.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+</head>
+<h1>"The San Francisco First Annual General Assembly Parade of Flowers"</h1>
+
+	<script type="text/template" id="flower-template">	
+		<div>
+			<p><img src="<%= image %>"/></p>
+			<p>Name: <%= flowerName %></p>
+			<p>Color: <%= color %></p>
+			<p>Origin: <%= origin %></p>
+			<p>Petal Count: <%= petals %></p>
+			<p>Leaf Count: <%= leafCount %></p>
+			<p>Edible: <%= isEdible %></p>
+			<p>Smells Pretty: <%= smellsPretty %></p>
+			<p>Comments: <%= comments %></p>
+		</div>
+	</script>
+</body>

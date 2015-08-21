@@ -1,0 +1,24 @@
+body {
+	background-color: pink;
+}
+
+div {
+	height: 350px;
+}
+
+img {
+	max-height: 350px;
+	float: left;
+}
+
+h1{
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-size: 40px;
+}
+
+p{
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-size: 25px;
+	width: 25%;
+	float: left;
+}
